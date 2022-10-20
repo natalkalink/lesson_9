@@ -1,0 +1,44 @@
+@font-face {
+   font-family: "Lato";
+   src: url(../fonts/Lato-Black.woff2) format("woff2"),
+     url(../fonts/Lato-Black.woff) format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+ }
+ .page { 
+   max-width: 1920px;
+   margin: 0 auto;
+}
+.page__container {
+   font-family: "Lato";
+   font-weight: 900;
+   font-size: 45px;
+   background-color: green;
+   line-height: 80px;
+   text-align: center;
+   padding: 20px;
+   text-transform: uppercase;
+   margin-bottom: 80px;
+}
+.page__container:hover {
+   color:wheat;
+}
+.images {
+   max-width: 1920px;
+}
+.bottom {
+   font-family: "Lato";
+   font-weight: 900;
+   font-size: 80px;
+   background-color: green;
+   line-height: 90px;
+   text-align: center;
+   padding: 20px;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+}
+.bottom:hover {
+  color: deepskyblue;
+  text-decoration: underline;
+}
